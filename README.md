@@ -17,3 +17,13 @@ To use the formatArrayStrings function, follow these steps:
 Include the function in your JavaScript file or environment.
 Call the formatArrayStrings function with two arguments: an array of strings and an array of numbers.
 The function will return a new array where each string is formatted based on the logic described above.
+
+# Task Three
+The task contains a JavaScript function named formatArrayStrings. The purpose of this function is to format an array of strings based on corresponding even or odd numbers provided in another array. For each string in the input array, the function checks the parity of the number at the same index position in the workedEvenOddnumbers array. If the number is even, the string is converted to uppercase; if odd, it is converted to lowercase. This formatting is achieved using the map method.
+
+# Usage
+To utilize the formatArrayStrings function, follow these steps:
+
+Incorporate the function into your JavaScript code or environment.
+Call the formatArrayStrings function with two arguments: an array of strings (strings) and an array of numbers (workedEvenOddnumbers).
+The function will generate a new array where each string is formatted according to the logic described above.
