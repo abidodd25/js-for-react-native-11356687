@@ -7,3 +7,15 @@ function processArray(numbers) {
   const workedEvenOddnumbers = processArray(numbers);
   console.log(workedEvenOddnumbers);
   
+  //task two
+  function formatArrayStrings(strings, workedEvenOddnumbers) {
+    return strings.map((string, index) =>
+      workedEvenOddnumbers[index] % 2 === 0
+        ? string.toUpperCase()
+        : string.toLowerCase()
+    );
+  }
+  
+  const strings = ["abi", "rose", "efia", "anokyewaa", "kofi", "kwadwoa", ""];
+  const formattedString = formatArrayStrings(strings, workedEvenOddnumbers);
+  console.log(formattedString);
